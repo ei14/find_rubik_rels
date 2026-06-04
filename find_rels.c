@@ -48,7 +48,7 @@
 
 // LEN = Length, REL = Relation, THD = Thread.
 #define LEN_REL 12
-#define FILESTEM "rel12_"	/* Prefix for each output file */
+#define FILESTEM "rel12/"	/* Prefix for each output file */
 #define N_THDS 16
 #define PREFIX_PER_THD 2
 #define LEN_PREFIX 3
