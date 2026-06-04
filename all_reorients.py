@@ -1,3 +1,13 @@
+'''
+Given a list of algos, produces all reorientations / flips of them.
+
+Reads from stdin, writes to stdout.
+Ignores lines with --dashes--.
+
+To use on the output of `find_rels.c`, on Linux you can run something like:
+    cat rel12/* | python all_reorients.py > outfile.txt
+'''
+
 import sys
 
 def all_reorients(alg):
